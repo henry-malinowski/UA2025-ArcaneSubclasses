@@ -57,17 +57,6 @@
         "ASSISTANT": "OWNER"
       },
       "flags": {}
-    },
-    {
-      "name": "macros",
-      "label": "Macros",
-      "system": "dnd5e",
-      "path": "packs/macros",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
     }
   ],
   "packFolders": [
