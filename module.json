@@ -1,13 +1,20 @@
 {
   "id": "UA2025-ArcaneSubclasses",
   "title": "UA2025: Arcane Subclasses",
-  "description": "A Foundry implementation of the UA2025-ArcaneSubclasses document released on D&DBeyond",
-  "version": "1.0.0",
+  "description": "A Foundry implementation of the UA2025-ArcaneSubclasses[Update] documents released on D&DBeyond",
+  "version": "2.0.0",
   "compatibility": {
-    "minimum": "12",
-    "verified": "13"
-  },
+    "minimum": "13",
+    "verified": "13.348"
+  },  
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/UA2025-ArcaneSubclasses/assets/banners/media-cover.webp"
+    }
+  ],
   "esmodules": [
+    "scripts/recovery-other-ability.js",
     "scripts/ua2025-arcane-subclasses.js"
   ],
   "relationships": {
@@ -15,7 +22,10 @@
       {
         "id": "dnd5e",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "minimum": "5.1",
+          "verified": "5.1.9"
+        }
       }
     ],
     "requires": [
@@ -36,10 +46,11 @@
   "packs": [    
     {
       "name": "content",
-      "label": "Arcane Subclasses UA Document",
+      "label": "Arcane Subclasses UA Documents",
       "system": "dnd5e",
       "path": "packs/content",
       "type": "JournalEntry",
+      "banner": "modules/UA2025-ArcaneSubclasses/assets/compendium/banner-01.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -52,6 +63,7 @@
       "system": "dnd5e",
       "path": "packs/classes",
       "type": "Item",
+      "banner": "modules/UA2025-ArcaneSubclasses/assets/compendium/banner-02.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -66,8 +78,7 @@
       "sorting": "m",
       "packs": [
         "content",
-        "classes",
-        "macros"
+        "classes"
       ],
       "folders": []
     }
@@ -76,7 +87,8 @@
   "flags": {
     "dnd5e": {
       "sourceBooks": {
-        "UA2025-ArcaneSubclasses": "SOURCE.UA.2025.ARCANESUBCLASSES"
+        "UA2025-ArcaneSubclasses": "SOURCE.UA.2025.ARCANESUBCLASSES",
+        "UA2025-ArcaneSubclassesUpdate": "SOURCE.UA.2025.ARCANESUBCLASSESUPDATE"
       }
     }
   },
@@ -85,5 +97,5 @@
   "changelog": "https://github.com/henry-malinowski/UA2025-ArcaneSubclasses/master/Changelog.md",
   "url": "https://github.com/henry-malinowski/UA2025-ArcaneSubclasses",
   "manifest": "https://raw.githubusercontent.com/henry-malinowski/UA2025-ArcaneSubclasses/refs/heads/main/module.json",
-  "download": "https://github.com/henry-malinowski/UA2025-ArcaneSubclasses/releases/download/v1.0.0/UA2025-ArcaneSubclasses.zip"
+  "download": "https://github.com/henry-malinowski/UA2025-ArcaneSubclasses/releases/download/v2.0.0/UA2025-ArcaneSubclasses.zip"
 }

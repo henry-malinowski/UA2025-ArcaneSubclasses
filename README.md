@@ -1,11 +1,21 @@
+![](https://img.shields.io/badge/Foundry-v13-informational)
+
 # UA2025-ArcaneSubclasses
 A Foundry implementation of the UA2025-ArcaneSubclasses document released on D&amp;DBeyond by WoTC
 
-In install:
-1. Switch to the Add-on Modules tab
-2. Click Install Module
-3. Paste the following URL into the Manifest URL textbox `https://raw.githubusercontent.com/henry-malinowski/UA2025-ArcaneSubclasses/refs/heads/main/module.json`
-4. Click Install
-5. In a DND5e Foundry world enable the "UA2025: Arcane Subclasses" module
+# Features
+* Full subclass integration in the FoundryVTT compendium system of the 2 ArcanaSubclasses UA documents.
+* Foundry use notes to aid in correctly using features.
 
-This Compendium grants Arcane Archer shots normally. You can also choose to add Arcane Shots as enchantments to your sheet, use it, and drag your applicable ranged weapon to add the shot to the weapon's activities to use after hitting with a weapon.
+## New Compendia
+<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-ArcaneSubclasses/refs/heads/main/github-assets/example_1.png">
+
+<img src="https://raw.githubusercontent.com/henry-malinowski/UA2025-ArcaneSubclasses/refs/heads/main/github-assets/example_2.png">
+
+# Installation Instructions
+
+To install and use the UA2025-ArcaneSubclasses module for Foundry Virtual Tabletop, simply paste the following URL into the **Install Module** dialog on the Setup menu of the application.
+
+`https://raw.githubusercontent.com/henry-malinowski/UA2025-ArcaneSubclasses/master/module.json`
+
+If you wish to manually install the module, you must clone or extract it into the `Data/modules/UA2025-ArcaneSubclasses` folder. You may do this by cloning the repository or downloading a zip archive from the [Releases Page](https://github.com/henry-malinowski/UA2025-ArcaneSubclasses/releases).
